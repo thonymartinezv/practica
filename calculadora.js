@@ -76,7 +76,7 @@
 	//Esta se ejecuta al pulsar el signo igual
 	function resultado_final(){
 		resultado();//Se calcula la operación
-		//if(num1!=""){alert(num1);}//por siquieren el resultado en una ventana
+		//if(num1!=""){alert(num1);}//por si quieren el resultado en una ventana de alerta
 	}
 	//Esta función se ejecutara cada vez que el usuario seleccione un signo de operación donde lo recibira como parametro
 	function operacion(signo){
