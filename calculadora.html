@@ -1,1 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+ <link rel="stylesheet" href="calculadora.css">
+<script type="text/javascript" src="calculadora.js"></script>
+</head>
 
+<body>
+<script>
+
+</script>
+<table width="15%" border="1">
+  <tr>
+    <td width="" colspan="1" align="center"><input name="display" type="text" class="color_display" id="display2" ></td>
+    <td width="" colspan="1" align="center"><input name="display" type="text" class="color_display" id="operador"></td>
+    <td width="" colspan="2" align="center"><input name="display" type="text" class="color_display2" id="display"></td>
+    
+  </tr>
+  <tr>
+    <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onClick="operacion('+')"></td>
+    <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-" onClick="operacion('-')"></td>
+    <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" onClick="operacion('*')"></td>
+    <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" onClick="operacion('/')"></td>
+  </tr>
+  <tr>
+    <td><input name="num7" type="button" class="numero" id="num7" value="7" onClick="imprimir(7)"></td>
+    <td><input name="num8" type="button" class="numero" id="num8" value="8" onClick="imprimir(8)"></td>
+    <td><input name="num9" type="button" class="numero" id="num9" value="9" onClick="imprimir(9)"></td>
+    <td><input name="num9" type="button" class="numero" id="num9" value="AC" onClick="borrar_todo()"></td>
+  </tr>
+  <tr>
+    <td><input name="num4" type="button" class="numero" id="num4" value="4" onClick="imprimir(4)"></td>
+    <td><input name="num5" type="button" class="numero" id="num5" value="5" onClick="imprimir(5)"></td>
+    <td><input name="num6" type="button" class="numero" id="num6" value="6" onClick="imprimir(6)"></td>
+    <td><input name="num6" type="button" class="numero" id="num6" value="<-" onClick="borrar()"></td>
+  </tr>
+  <tr>
+    <td><input name="num1" type="button" class="numero" id="num1" value="1" onClick="imprimir(1)"></td>
+    <td><input name="num2" type="button" class="numero" id="num2" value="2" onClick="imprimir(2)"></td>
+    <td><input name="num3" type="button" class="numero" id="num3" value="3" onClick="imprimir(3)"></td>
+    <td><input name="num3" type="button" class="numero" id="num3" value="P" onClick="prueba()"></td>
+  </tr>
+  <tr>
+    <td><input name="num0" type="button" class="numero" id="num0" value="0" onClick="imprimir(0)"></td>
+    <td><input name="button17" type="button" class="numero" id="button17" value="," onClick="imprimir('.')"></td>
+    <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" onClick="resultado_final()"></td>
+  </tr>
+</table>
+
+</body>
+</html>
